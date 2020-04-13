@@ -61,7 +61,7 @@ pipeline {
             }
         }
 
-/* 
+ 
         stage('Deploy to Production fixed server') {
             when {
                 branch 'release'
@@ -77,7 +77,7 @@ pipeline {
             }
         }
 
-*/
+
         stage('Integration Tests') {
             when {
                 branch 'master'
